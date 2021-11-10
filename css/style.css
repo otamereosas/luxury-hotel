@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Merriweather", serif, "Montserrat", sans-serif;
+}
+
+.top-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#image1 {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+}
+
+.menu {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 5rem;
+  width: 8rem;
+}
+
+nav {
+  background: transparent;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  text-decoration: none;
+  display: block;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+nav li:nth-child(2) {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+}
+
+.content-werppar {
+  width: 100%;
+  height: 30rem;
+  position: absolute;
+  top: 3.8%;
+  z-index: 1;
+  padding-left: 11%;
+}
+
+.welcome {
+  font-family: Montserrat;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: bolder;
+  color: #ffffff;
+  margin: -10px;
+}
+
+.luxury {
+  font-family: Merriweather;
+  font-size: 100px;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+  margin: -10px;
+}
+
+.hotel {
+  font-family: Merriweather;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  margin: -10px;
+}
+
+#discriotion {
+  font-family: Montserrat;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: -10px;
+}
+
+.book-now {
+  width: 14%;
+  position: absolute;
+  top: 75%;
+  left: 43%;
+}
+
+#scroll {
+  width: 4%;
+  color: #ffffff;
+  position: absolute;
+  top: 88%;
+  left: 48%;
+}
+
+.scroll-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+  top: 95%;
+  left: 48.5%;
+}
+
+.facility-wrapper {
+  width: 100%;
+  height: 10rem;
+  padding: 10px;
+}
+
+#facility {
+  padding: 1rem;
+  color: #14274a;
+  font-family: Merriweather;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.text {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: center;
+}
+
+.images {
+  width: 80%;
+  height: 35rem;
+  position: relative;
+  left: 10%;
+}
+
+.image-name {
+  height: 3rem;
+  width: 30%;
+  padding: 0.5rem 0 2rem 0;
+  background: #ffffff;
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.services-wrapper {
+  width: 100%;
+  height: 40rem;
+  background: #ffffff;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.bottom-container {
+  width: 100%;
+  height: 10rem;
+  margin-bottom: 5rem;
+}
+
+.bottom {
+  text-align: center;
+  color: #14274a;
+  font-family: Montserrat;
+  margin: 10px;
+}
+
+.testiminials {
+  margin: 10px;
+  text-align: center;
+  font-family: Merriweather;
+  color: #14274a;
+  font-size: 40px;
+}
+
+.calm {
+  font-size: 20px;
+}
+
+.baxter {
+  font-size: 10px;
+}
+
+.arrow {
+  width: 5%;
+  height: 20px;
+  position: absolute;
+  left: 47.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-img {
+  height: 20px;
+  width: 40%;
+}
+
+.footer {
+  width: 100%;
+  height: 10rem;
+  background: #14274a;
+}
+
+.triangle {
+  width: 8%;
+  height: 8%;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid #14274a;
+  border-right: 50px solid transparent;
+  margin: auto;
+  transform: translateY(-23px);
+}
